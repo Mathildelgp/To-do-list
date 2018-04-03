@@ -1,0 +1,106 @@
+html, body{
+	margin: 0;
+	width: 100%;
+	font-family: arial narrow;
+	background-color: #E5E5E5;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+#bloc-entete{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	color: pink;
+}
+.doDoingDone h3{
+	color: pink;
+	margin: 0;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+}
+#block-to-do{
+	display: flex;
+	align-items: center;
+	color: red;
+}
+#block-to-do h3{
+	display: flex;
+	color: red;
+	margin-right: 20px;
+}
+input{
+	width:150px;
+	height: 30px;
+	margin-right: 20px;
+}
+input:focus{
+	outline:  none;
+}
+#bouton:hover{
+	cursor:pointer;
+}
+#block-list{
+	display: flex;
+	flex-direction: column;
+}
+.active{
+	background-color: white;
+	width: 200px;
+	padding: 15px 15px 15px 15px;
+	display: flex;
+	justify-content: space-between;
+	margin:10px 0 10px 0;
+}
+button{
+	width: 20px;
+	height :20px;
+	background-color: red;
+	border:none;
+	color: pink;
+}
+button:hover{
+	background-color: pink;
+	cursor: pointer;
+	color: red;
+}
+
+#error{
+	text-align: center;
+	width: 200px;
+	height:30px;
+	color: #666666;
+}
+li{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+#block-list-general{
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+.doDoingDone{
+	width: 230px;
+	background: linear-gradient(to bottom, white, #E5E5E5);
+}
+
+ul{
+	padding-left: 0;
+	padding: 20px 0 20px 0;
+	min-height: 100%;
+}
+.droptarget {
+    padding-left: 0;
+}
+
+p{
+	margin: 0;
+	width: 170px;
+}
